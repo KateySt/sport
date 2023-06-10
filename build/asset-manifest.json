@@ -3,7 +3,7 @@
     "main.css": "./static/css/main.a4d24666.css",
     "main.js": "./static/js/main.3305a359.js",
     "static/media/img.png": "./static/media/img.34284dd6e0e8a6975284.png",
-    "index.html": "./index.html",
+    "index.html": "/index.html",
     "main.a4d24666.css.map": "./static/css/main.a4d24666.css.map",
     "main.3305a359.js.map": "./static/js/main.3305a359.js.map"
   },
