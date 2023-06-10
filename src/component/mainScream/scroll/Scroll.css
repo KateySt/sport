@@ -1,0 +1,29 @@
+.scroll{
+    /* Scroll down to discover */
+
+    height: 23px;
+
+    /* bc */
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height, or 128% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.groupScroll{
+    /* Group 2 */
+
+    position: absolute;
+    height: 57px;
+    left: 634px;
+    top: 605px;
+}
