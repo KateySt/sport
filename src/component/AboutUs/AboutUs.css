@@ -1,8 +1,113 @@
 .AboutUs {
     width: 100%;
     height: 1800px;
-    left: 0px;
-    top: 0px;
+
     display: block;
     background: white;
+    position: relative;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    left: 0;
+    top: 105px;
+    z-index: 1;
+}
+
+.number > div {
+    margin-right: 60px;
+}
+
+.number > div:last-child {
+    margin-right: 0;
+}
+
+.number-centered {
+    width: 1040px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.member {
+    /*  members */
+
+    width: 156px;
+    height: 99.7px;
+    left: 0px;
+    top: 5.43px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 1.3;
+    /* or 42% */
+
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.member::after {
+    content: attr(data-after);
+    font-size: 10px;
+   
+    top: 100%;
+    left: 0;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+}
+
+.member.arrow {
+    margin-right: -20px;
+    margin-top: 60px;
+}
+
+.svg-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.textBlock{
+/* text blok 2 */
+
+
+    position: absolute;
+    width: 404px;
+    height: 279px;
+    left: 0px;
+    top: 142px;
+}
+
+.title.about{
+    /* About us */
+
+    position: absolute;
+    width: 277px;
+    height: 56px;
+    left: 0px;
+    top: 142px;
+
+    /* h2_2 */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #000000;
 }

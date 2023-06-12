@@ -1,4 +1,4 @@
-.scroll{
+.scroll {
     /* Scroll down to discover */
 
     height: 23px;
@@ -19,11 +19,12 @@
     color: #FFFFFF;
 }
 
-.groupScroll{
+.groupScroll {
     /* Group 2 */
 
     position: absolute;
     height: 57px;
     left: 634px;
     top: 605px;
+    z-index: 1;
 }

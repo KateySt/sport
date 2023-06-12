@@ -1,5 +1,6 @@
 import React from 'react';
 import './Scroll.css';
+import {IoIosArrowDown} from "react-icons/io";
 
 const Scroll = (props) => {
 
@@ -7,6 +8,7 @@ const Scroll = (props) => {
         <>
             <div className="groupScroll">
                 <div className="scroll">Scroll down to discover</div>
+                <IoIosArrowDown style={{color: "white"}}/>
             </div>
         </>
     );
